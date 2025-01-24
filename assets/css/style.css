@@ -7,7 +7,7 @@
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620; /* dark brown */
-    --secondary-color: #aa9571; /* light brown */
+    --secondary-color: #aa9581; /* light brown */
     --highlight-color: #416a8e; /* blue */
     --highlight-color-light: #7a9fc2; /* light blue */
 }
@@ -61,5 +61,4 @@ h3 {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
-*/
+} */
