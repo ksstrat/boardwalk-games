@@ -276,6 +276,58 @@
                 </div>
             </div>
         </section>
+
+        <!-- Reservation form -->
+        <section id="reservation-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <div class="col-12 text-center">
+                    <h2 class="display-6">Reserve a game</h2>
+                    </div>
+                    <p>Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the
+                        adventure begin! Fill out your details and preferred game below, and we'll have it set aside for
+                        you when you arrive.</p>
+                    <form action="success.html" method="get">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="name" class="form-label">Full name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                           
+                            <div class="col-12 col-lg-8 mb-3">
+                                <label for="select-game" class="form-label">Select game</label>
+                                <select id="select-game" class="form-select" name="select-game" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="galaxy-pioneers">Galaxy Pioneers</option>
+                                    <option value="mystic-woods">Mystic Woods</option>
+                                    <option value="captains-gambit">Captain's Gambit</option>
+                                    <option value="critter-quest">Critter Quest</option>
+                                    <option value="settlers-of-catan">Settlers of Catan</option>
+                                    <option value="monopoly">Monopoly</option>
+                                    <option value="exploding-kittens">Exploding Kittens</option>
+                                    <option value="cluedo">Cluedo</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="request-date" class="form-label">Requested date</label>
+                                <input type="date" class="form-control" id="request-date" name="request-date" required>
+                            </div>
+                        </div>
+                        <div class="col-12 text-end">
+                        <button type="submit" class="btn custom-button-outline my-2">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer / contact section -->
@@ -315,34 +367,34 @@
                     <h3 class="sub-heading-color">Opening times</h3>
                     <table class="table table-dark">
                         <thead>
-                          <tr>
-                            <th scope="col">Day</th>
-                            <th scope="col">Open</th>
-                            <th scope="col">Close</th>
-                          </tr>
+                            <tr>
+                                <th scope="col">Day</th>
+                                <th scope="col">Open</th>
+                                <th scope="col">Close</th>
+                            </tr>
                         </thead>
                         <tbody>
-                          <tr>
-                            <th scope="row">Mon</th>
-                            <td colspan="2">Closed</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Tue - Thur</th>
-                            <td>11am</td>
-                            <td>11pm</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Fri - Sat</th>
-                            <td>11am</td>
-                            <td>12am</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Sun</th>
-                            <td>12am</td>
-                            <td>7pm</td>
-                          </tr>
+                            <tr>
+                                <th scope="row">Mon</th>
+                                <td colspan="2">Closed</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Tue - Thur</th>
+                                <td>11am</td>
+                                <td>11pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Fri - Sat</th>
+                                <td>11am</td>
+                                <td>12am</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Sun</th>
+                                <td>12am</td>
+                                <td>7pm</td>
+                            </tr>
                         </tbody>
-                      </table>
+                    </table>
                 </div>
             </div>
         </div>
